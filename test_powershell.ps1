@@ -1,0 +1,1 @@
+Invoke-RestMethod -Uri "http://localhost:8000/api/order" -Method POST -ContentType "application/json" -Body '{"product_id": 101, "quantity": 2}'
